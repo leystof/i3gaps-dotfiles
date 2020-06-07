@@ -4,7 +4,7 @@
 * polybar - status bar
 * feh - setting bg, also nice image viewer
 * termite - terminal emulator
-* ttf-font-awesome - autohide mouse cursor
+* ttf-font-awesome - symbol
 * udiskie - device automounting
 * compton-tryone - blur
 * dmenu - Super-P launcher
