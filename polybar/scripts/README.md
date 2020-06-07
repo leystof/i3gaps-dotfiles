@@ -1,1 +1,1 @@
-Зарегестрируйтесь на сайте https://api.openweathermap.org/ и вставьте свой ключ в openweathermap-fullfeatured.sh
+Зарегестрируйтесь на сайте https://openweathermap.org/ и вставьте свой ключ в openweathermap-fullfeatured.sh
