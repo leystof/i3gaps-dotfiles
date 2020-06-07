@@ -6,6 +6,7 @@
 * termite - terminal emulator
 * ttf-font-awesome - autohide mouse cursor
 * udiskie - device automounting
+* compton-tryone - blur
 * pulseaudio - audio managment
 * dmenu - Super-P launcher
 * gnome-screenshot - screenshot
