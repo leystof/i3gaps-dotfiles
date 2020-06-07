@@ -6,7 +6,7 @@
 * termite - terminal emulator
 * ttf-font-awesome - symbol
 * udiskie - device automounting
-* compton-tryone - blur
+* compton-tryone - blur, shadow
 * dmenu - Super-P launcher
 * gnome-screenshot - screenshot
 ### screenshot
