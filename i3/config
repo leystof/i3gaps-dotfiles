@@ -7,7 +7,6 @@ exec --no-startup-id feh --bg-scale $HOME/wallpaper/atm.jpg
 # Если лагает комп, то выключай нафиг compton
 exec --no-startup-id exec compton -b
 exec --no-startup-id xrandr --dpi 100
-exec --no-startup-id flameshot
 exec --no-startup-id xflux -l 54.73, -g 55.97 -k 2700
 exec --no-startup-id megasync
 exec --no-startup-id polybar -q mybar
