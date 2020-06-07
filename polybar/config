@@ -84,9 +84,7 @@ font-3 = FontAwesome5Brands:style=Solid:size=7.5;2.5
 #Расположение и активация модулей
 modules-left = i3
 modules-center = openweathermap-fullfeatured
-modules-right = xkeyboard cpu memory date
-
-
+modules-right = load-average cpu memory date wlan xkeyboard
 
 #системный лоток расположение tray иконок none|right|center|left
 tray-position = right
@@ -268,6 +266,22 @@ label-layout =  %layout%
 #label-indicator-overline = 2B7DBC
 #label-indicator-underline = 2B7DBC
 
+##########################################################3
+
+[module/load-average]
+type = custom/script
+exec = uptime | grep -ohe 'load average[s:][: ].*' | awk '{ print $3" "$4" "$5"," }' | sed 's/,//g'
+interval = 60
+
+;HOW TO SET IT MINIMAL 10 CHARACTERS - HIDDEN BEHIND SYSTEM ICONS
+;label = %output%
+label = %output:10%
+
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+format-prefix = "  "
+format-prefix-foreground = #62FF00
+format-underline = #62FF00
 
 
 
@@ -339,6 +353,15 @@ https://github.com/polybar/polybar/wiki/Module:-xwindow
 #type = internal/xwindow
 #label = %{F#ABE0FF}%title:0:50:...%
 
+[module/wlan]
+type = internal/network
+interface = wlp0s29f7u7
+interval = 3.0
+format-connected-padding = 1
+format-disconnected-padding = 1
+format-connected = <label-connected>
+label-connected = %essid%
+label-disconnected = 
 
 
 
