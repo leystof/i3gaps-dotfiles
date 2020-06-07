@@ -1,5 +1,5 @@
 # i3gaps-dotfiles
-### general
+### instll
 * i3-gaps - window manager
 * polybar - status bar
 * feh - setting bg, also nice image viewer
