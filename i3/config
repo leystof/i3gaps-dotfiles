@@ -3,7 +3,7 @@ set $mod Mod4
 
 # Автозапуск программ
 exec --no-startup-id setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggle,grp_led:scroll"
-exec --no-startup-id feh --bg-scale /home/leystof/wallpaper/atm.jpg
+exec --no-startup-id feh --bg-scale $HOME/wallpaper/atm.jpg
 # Если лагает комп, то выключай нафиг compton
 exec --no-startup-id exec compton -b
 exec --no-startup-id xrandr --dpi 100
