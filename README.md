@@ -10,3 +10,5 @@
 * pulseaudio - audio managment
 * dmenu - Super-P launcher
 * gnome-screenshot - screenshot
+### screenshot
+![Screenshot](screenshot.png)
