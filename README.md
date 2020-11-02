@@ -9,6 +9,6 @@
 * compton-tryone - blur, shadow
 * dmenu - Super-P launcher
 * gnome-screenshot - screenshot
-* pulse-auidio - АуДиО
+* pulse-audio - audio
 ### screenshot
 ![Screenshot](screenshot.png)
